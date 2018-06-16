@@ -8,6 +8,9 @@ gem 'rails', '~> 5.2.0'
 # Use sqlite3 as the database for Active Record
 
 gem 'devise'
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
+
 gem 'pg'
 
 # Use Puma as the app server
@@ -47,6 +50,9 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 
   gem 'sqlite3'
+
+  gem 'rspec-rails', '~> 3.7'
+
 end
 
 group :development do
